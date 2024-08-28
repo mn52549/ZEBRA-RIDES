@@ -1,0 +1,182 @@
+* style.css */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.image-text {
+    overflow: auto; /* Clear floats */
+    margin-left: 30px;
+}
+.image-text img {
+    float: left;
+    margin-right: 333px; /* Space between image and text */
+}
+
+header {
+    background-color: #7f7b7b;
+    color: #000000;
+    padding: 35px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 15px 0;
+    margin-left: 150px;
+    padding: 0 20px;
+    float: center;
+   /* background-color: #aa996b;
+    color: #000000; */
+
+}
+
+
+.container.img {
+    padding: 20px 0;
+    background-position: left;
+   /* background-color: #aa996b;
+    color: #000000; */
+}
+
+.image-text-of-services {
+    overflow: auto; /* Clear floats */
+    margin-left: 15px;
+    background-color: #000000;
+    color: #ffffff; 
+
+}
+.image-text-of-services img {
+    float: left;
+    margin-right: 45px; /* Space between image and text */
+    background-color: #000000;
+    color: #ffffff; 
+}
+
+
+.brands.L1 {
+    padding: 20px 0;
+    background-position: left;
+    background-color: #000000;
+    color: #ffffff; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+   /* background-color: #aa996b;
+    color: #000000; */
+    
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #1a1919;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: rgb(90, 151, 215);
+}
+
+.hero {
+    background-image: url('hero.jpg'); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    color: #211f1f;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    border: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.featured-trips {
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+
+
+.trip-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.trip-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.trip-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.trip-card h3 {
+    padding: 15px;
+}
+
+.trip-card p {
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.about {
+    padding: 50px 0;
+    /*background-color: #f9f9f9;*/
+    background-color: #000000;
+    color: #ffffff; 
+    text-align: center;
+}
+
+.contact {
+    padding: 50px 0;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #7f7b7b;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
